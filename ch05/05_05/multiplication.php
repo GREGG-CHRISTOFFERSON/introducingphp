@@ -1,3 +1,4 @@
+<!-- This page dynamically displays a multiplication table -->
 <?php $num_columns = 12; // number of columns in table ?>
 <!DOCTYPE html>
 <html lang="en">
