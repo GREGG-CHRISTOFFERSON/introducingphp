@@ -1,3 +1,5 @@
+<!-- this page dynamically displays different content to member
+and non-members. Members variable is hard coded in this example -->
 <?php $member = 1; ?>
 <!DOCTYPE html>
 <html lang="en">

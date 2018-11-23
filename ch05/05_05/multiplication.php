@@ -1,5 +1,5 @@
 <!-- This page dynamically displays a multiplication table -->
-<?php $num_columns = 12; // number of columns in table ?>
+<?php $num_columns = 16; // number of columns in table ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,7 +31,6 @@
             echo '</tr>';
         endfor;
         ?>
-    </tr>
-</table>
+   </table>
 </body>
 </html>
