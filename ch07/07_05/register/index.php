@@ -1,3 +1,4 @@
+<?php include '../_includes/variables.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,27 +10,7 @@
 </head>
 <body id="page_register">
 <div class="wrapper">
-  <header>
-    <div class="branding"> <img src="../images/ralogo_monogram.png" alt="Logo">
-      <p>Roux Academy<br>
-        Art • Media • Design</p>
-    </div>
-    <div class="description">
-      <h1>Roux Academy 2016 Art Conference</h1>
-      <p>Join over 500 hundred of the most creative and brilliant minds of art colleges all around the world for five days of lectures by world-renowned art scholars and artists, and seven days and nights of gallery exhibits featuring the best in contemporary art, including painting, sculpture, and more, in the beautiful halls of Hotel Contempo in the heart of Seattle.</p>
-    </div>
-    <nav>
-      <ol>
-        <li><a href="../index.php">HOME</a></li>
-        <li><a href="../artists.php">ARTISTS</a></li>
-        <li><a href="../schedule/index.php">SCHEDULE</a></li>
-        <li><a href="../venue.php">VENUE/TRAVEL</a></li>
-        <li><a href="index.php">REGISTER</a></li>
-      </ol>
-    </nav>
-  </header>
-  <div id="rotator"> <img src="../images/art01.jpg" alt="Artwork from show"> </div>
-  <!-- Rotator -->
+  <?php include '../_includes/header.html'; ?>
   <section id="main">
     <article>
       <h2>Register</h2>
@@ -98,15 +79,7 @@
       <p>Each year, nine individuals are honored as Featured Artists - each being granted his or her own exhibit hall to display entire collections or themed pieces. Each Featured Artist has an opportunity to speak at the conference to share his or her vision, perspective, and techniques with conference attendees.</p>
       <div class="pixgrid">
         <ul>
-          <li><img src="../images/artists/Barot_Bellingham_tn.jpg" alt="Barot Bellingham"></li>
-          <li><img src="../images/artists/Constance_Smith_tn.jpg" alt="Constance Smith"></li>
-          <li><img src="../images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod"></li>
-          <li><img src="../images/artists/Hillary_Goldwynn_tn.jpg" alt="Hillary Goldwynn"></li>
-          <li><img src="../images/artists/Jennifer_Jerome_tn.jpg" alt="Jennifer Jerome"></li>
-          <li><img src="../images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar"></li>
-          <li><img src="../images/artists/LaVonne_LaRue_tn.jpg" alt="LaVonne LaRue"></li>
-          <li><img src="../images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington"></li>
-          <li><img src="../images/artists/Xhou_Ta_tn.jpg" alt="Xhou Ta"></li>
+          <?php include '../_includes/featured-artist.html'; ?>
         </ul>
         <p><a class="link" href="../artists.php">Artist Info</a></p>
       </div>
@@ -114,17 +87,7 @@
     <!-- Featured Artists -->    <!-- Coming to event --> 
   </aside>
   <!-- Sidebar -->
-  <footer>
-    <div class="branding"> <img src="../images/ralogo_monogram.png" alt="Logo"> </div>
-    <div class="description">Join over 500 hundred of the most creative and brilliant minds of art colleges all around the world for three days of lectures by world-renowned art scholars and artists.</div>
-    <nav>
-      <ol>
-        <li><a href="http://rouxacademy.com/about/about.htm">About the Roux Academy</a></li>
-        <li><a href="http://rouxacademy.com/privacy.htm">Privacy Policy</a></li>
-        <li><a href="http://rouxacademy.com/index.htm">Visit our website</a></li>
-      </ol>
-    </nav>
-  </footer>
+  <?php include '../_includes/footer.html'; ?>
 </div>
 </body>
 </html>

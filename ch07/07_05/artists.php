@@ -1,3 +1,4 @@
+<?php include './_includes/variables.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,27 +10,7 @@
 </head>
 <body id="page_artists">
 <div class="wrapper">
-  <header>
-    <div class="branding"> <img src="images/ralogo_monogram.png" alt="Logo">
-      <p>Roux Academy<br>
-        Art • Media • Design</p>
-    </div>
-    <div class="description">
-      <h1>Roux Academy 2016 Art Conference</h1>
-      <p>Join over 500 hundred of the most creative and brilliant minds of art colleges all around the world for five days of lectures by world-renowned art scholars and artists, and seven days and nights of gallery exhibits featuring the best in contemporary art, including painting, sculpture, and more, in the beautiful halls of Hotel Contempo in the heart of Seattle.</p>
-    </div>
-    <nav>
-      <ol>
-        <li><a href="index.php">HOME</a></li>
-        <li><a href="artists.php">ARTISTS</a></li>
-        <li><a href="schedule/index.php">SCHEDULE</a></li>
-        <li><a href="venue.php">VENUE/TRAVEL</a></li>
-        <li><a href="register/index.php">REGISTER</a></li>
-      </ol>
-    </nav>
-  </header>
-  <div id="rotator"> <img src="images/art01.jpg" alt="Artwork from show"> </div>
-  <!-- Rotator -->
+  <?php include './_includes/header.html'; ?>
   <section id="main">
     <article>
       <h2>About the Event</h2>
@@ -42,7 +23,7 @@
           </li>
           <li>
             <h3>Jonathan G. Ferrar II</h3>
-            <p><img src="images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar">Labeled as “The Artist to Watch in 2016” by the London Review, Johnathan has already sold one of the highest priced commissions paid to an art student, ever on record. The piece, entitled Gratitude Resort, a work in oil and mixed media, was sold for $750,000.</p>
+            <p><img src="images/artists/Jonathan_Ferrar_tn.jpg" alt="Jonathan Ferrar">Labeled as “The Artist to Watch in 2016�? by the London Review, Johnathan has already sold one of the highest priced commissions paid to an art student, ever on record. The piece, entitled Gratitude Resort, a work in oil and mixed media, was sold for $750,000.</p>
           </li>
           <li>
             <h3>Hillary Hewitt Goldwynn-Post</h3>
@@ -50,7 +31,7 @@
           </li>
           <li>
             <h3>Hassum Harrod</h3>
-            <p><img src="images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod">The Art College in New Dehli has sponsored Hassum for his entire undergraduate career at the university, seeing great promise in his contemporary paintings of landscapes - that use equal parts muted and vibrant tones. Hassum will be speaking on “The use and absence of color in modern art”.</p>
+            <p><img src="images/artists/Hassum_Harrod_tn.jpg" alt="Hassum Harrod">The Art College in New Dehli has sponsored Hassum for his entire undergraduate career at the university, seeing great promise in his contemporary paintings of landscapes - that use equal parts muted and vibrant tones. Hassum will be speaking on “The use and absence of color in modern art�?.</p>
           </li>
           <li>
             <h3>Jennifer_Jerome</h3>
@@ -66,7 +47,7 @@
           </li>
           <li>
             <h3>Riley Rudolph Rewington</h3>
-            <p><img src="images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington">A first-year student at the Roux Academy of Art, Media, and Design, Riley is already changing the face of modern art at the university. Riley’s exquisite abstract pieces have no intention of ever being understood, but instead beg the viewer to dream, create, pretend, and envision with their mind’s eye. Riley will be speaking on the “Art of Abstract” during Thursday’s schedule.</p>
+            <p><img src="images/artists/Riley_Rewington_tn.jpg" alt="Riley Rewington">A first-year student at the Roux Academy of Art, Media, and Design, Riley is already changing the face of modern art at the university. Riley’s exquisite abstract pieces have no intention of ever being understood, but instead beg the viewer to dream, create, pretend, and envision with their mind’s eye. Riley will be speaking on the “Art of Abstract�? during Thursday’s schedule.</p>
           </li>
           <li>
             <h3>Xhou Ta</h3>
