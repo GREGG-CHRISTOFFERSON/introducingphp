@@ -64,6 +64,13 @@ if (!$suspect) :
             $message .= ucfirst($field) . ": $val\r\n\r\n";
         endforeach;
         $message = wordwrap($message, 70);
+        /* This script doesn't send email.  If you want to send email, comment
+         * out $mailSent = true, and uncomment the code that uses the mail function.
+         */
         $mailSent = true;
+//        $mailSent = mail($to, $subject, $message, $headers, $authorized);
+//        if (!$mailSent) {
+//            $errors['mailfail'] = true;
+//        }
     endif;
 endif;
