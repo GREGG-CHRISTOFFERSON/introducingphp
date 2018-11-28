@@ -1,4 +1,5 @@
 <?php
+//https://www.lynda.com/PHP-tutorials/Handling-radio-button-groups/418256/452178-4.html
 $mailSent = false;
 // Assume the input contains nothing suspect
 $suspect = false;
